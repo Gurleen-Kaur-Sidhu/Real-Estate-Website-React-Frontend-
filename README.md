@@ -27,11 +27,7 @@ This is a **frontend-only version** — backend functionality for forms is curre
 
 ## 🚀 Getting Started
 
-# Clone repository
-https://github.com/Gurleen-Kaur-Sidhu/Real-Estate-Website-React-Frontend.git
-
 # Install dependencies
-cd real-estate-app
 npm install
 
 # Start development server
