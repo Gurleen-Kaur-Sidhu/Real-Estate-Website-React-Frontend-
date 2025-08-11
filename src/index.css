@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+:root {
+  --maincolor: #2a513c;
+  --black: #000000;
+  --white: #ffffff;
+  --lightbackground: #f5f5f5;
+  --textcolor: #ddd;
+}
+
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+
+h1 {
+  font-size: 58px !important;
+  color: var(--white) !important;
+  font-weight: 700 !important;
+  line-height: 48px !important;
+  margin-bottom: 26px !important;
+  font-family: "Playfair Display", serif !important;
+}
+
+h2 {
+  font-size: 34px !important;
+  color: var(--black) !important;
+  font-weight: 700 !important;
+  line-height: 40px !important;
+  margin-bottom: 20px !important;
+  font-family: "Playfair Display", serif !important;
+}
+
+h4 {
+  font-size: 18px !important;
+  color: var(--white) !important;
+  font-weight: 400 !important;
+  line-height: 20px;
+  margin-bottom: 20px !important;
+}
+
+h3 {
+  font-size: 40px !important;
+  color: var(--maincolor) !important;
+  font-weight: 600 !important;
+  line-height: 20px;
+  margin-bottom: 10px !important;
+}
+
+h5 {
+  font-size: 16px !important;
+  color: var(--black) !important;
+  font-weight: 600 !important;
+  line-height: 20px;
+  margin-bottom: 10px !important;
+}
+
+p {
+  font-size: 16px !important;
+  color: var(--black);
+}
+
+a {
+  text-decoration: none !important;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  height: 44px;
+  padding: 0 25px;
+  background: var(--maincolor);
+  border: 1px solid var(--maincolor);
+  border-radius: 50px !important;
+  font-size: 15px !important;
+  font-weight: 500;
+  line-height: 40px;
+  color: var(--white);
+}
+
+button:hover {
+  background: #173826;
+  border: 1px solid #173826;
+}
+
+button img {
+  height: 21px;
+  width: 21px;
+}
+
+.section-sixth {
+  background-color: #fffdf9;
+}
+
+.section-sixth h2 {
+  font-weight: 600;
+  font-size: 2.2rem;
+}
+
+.featured-article h3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.card h6 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.badge {
+  font-size: 0.7rem;
+  padding: 4px 8px;
+}
+
+.about-hero-section,
+.contact-hero-section,
+.service-hero-section,
+.formvaluation-hero-section,
+.review-hero-section,
+.notfound-hero-section,
+.testimonial-hero-section{
+  position: relative;
+  height: 470px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.notfound h4,
+.contact h4,
+.about h4,
+.service h4,
+.formvaluation h4,
+.review h4 ,
+.testimonial h4 {
+  margin-bottom: 0px !important;
+}
+
+.notfound-hero-section::before,
+.contact-hero-section::before,
+.about-hero-section::before,
+.service-hero-section::before,
+.formvaluation-hero-section::before,
+.review-hero-section::before,
+.testimonial-hero-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+
+.notfound-heading,
+.contact-heading,
+.about-heading,
+.service-heading,
+.formvaluation-heading,
+.review-heading,
+.testimonial-heading {
+  position: relative;
+  z-index: 3;
+}
+
+.notfound-hero-section {
+  position: relative;
+  background-image: url(/images/404.png);
+}
+
+.notfound-hero-section::before , .testimonial-hero-section::before {
+  background: rgba(0, 0, 0, 0.7) !important;
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 23px !important;
+    line-height: 32px !important;
+  }
+
+  h1 {
+    font-size: 30px !important;
+    line-height: 36px !important;
+    margin-bottom: 10px !important;
+    margin-top: 40px !important;
+  }
+
+  h4 {
+    font-size: 15px !important;
+  }
+
+  .about-hero-section,
+  .contact-hero-section,
+  .service-hero-section,
+  .formvaluation-hero-section,
+  .review-hero-section,
+  .notfound-hero-section,
+  .testimonial-hero-section {
+    height: 350px !important;
+  }
+
+  .hero-image-section {
+    height: 500px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  button {
+    height: 38px;
+    padding: 0 16px;
+    font-size: 13px !important;
+  }
+
+  button img {
+    height: 17px;
+    width: 17px;
+  }
+  .main-section-buttons button {
+    width: 200px !important;
+  }
+
+  .main-section-buttons {
+    gap: 10px;
+    margin-top: 20px;
+  }
+}
+
+.Toastify__close-button:hover{
+  background: none !important;
+  border:none !important
+}
+
+.error-text{
+      width: 100% !important;
+    margin-top: .25rem !important;
+    font-size: .875em !important;
+    color: var(--bs-form-invalid-color) !important;
+}

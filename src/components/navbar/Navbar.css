@@ -1,0 +1,94 @@
+.navbar-section .navbar {
+  height: 90px;
+}
+
+.navbar-section a.navbar-brand {
+  height: 66px;
+  width: 100px;
+  padding: 0px;
+}
+
+.navbar-section .navbar-brand img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.navbar-section .navbar-nav {
+  gap: 40px;
+}
+
+.navbar-section .dropdown-toggle::after {
+  color: var(--white);
+}
+
+.navbar-section .nav-link:hover,
+.navbar-section a#collapsible-nav-dropdown span:hover {
+  color: var(--maincolor) !important;
+}
+
+.navbar-section {
+  transition: background-color 0.3s ease;
+  background-color: transparent;
+}
+
+.navbar-section.scrolled {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+@media (max-width: 992px) {
+  /* Style when collapsed (closed) */
+  button.navbar-toggler.collapsed {
+    background: white !important;
+    color: var(--maincolor);
+    font-weight: bold;
+    border-radius: 5px !important;
+    height: 30px;
+    padding: 0px 5px !important;
+    box-shadow: none !important;
+  }
+
+  /* Style when expanded (open) */
+  button.navbar-toggler {
+    background: white !important;
+    color: var(--maincolor);
+    font-weight: bold;
+    border-radius: 5px !important;
+    height: 30px;
+    padding: 0px 5px !important;
+    box-shadow: none !important;
+
+  }
+
+  .navbar-section {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+  }
+
+  div#responsive-navbar-nav {
+    padding: 20px;
+  }
+
+  .navbar-section .navbar-nav {
+    gap: 2px;
+  }
+
+  .navbar-nav {
+    margin-top: 12px;
+  }
+
+  .free-home-button{
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-section a.navbar-brand {
+    height: 50px;
+  }
+}
+
+@media(max-width:576px){
+    .free-home-button{
+   width: 100%;
+  }
+}

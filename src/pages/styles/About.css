@@ -1,0 +1,85 @@
+.about-hero-section {
+  background-image: url(/images/img3.jpg);
+}
+
+.about-page .why-choose-us h2 {
+  margin-bottom: 40px !important;
+}
+
+.about-page .why-choose-us .icons {
+  background-color: #2a513c2b !important;
+  display: inline-block;
+  padding: 12px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  height: 50px;
+  width: 50px;
+}
+
+.about-page .why-choose-us h4 {
+  font-size: 18px !important;
+  color: var(--black) !important;
+  font-weight: 600 !important;
+  line-height: 20px;
+  margin-bottom: 10px !important;
+}
+
+.about-page .why-choose-us {
+  margin-bottom: 70px;
+  padding: 70px;
+  border-radius: 10px;
+}
+
+.image-why-choose {
+  height: 450px;
+  max-height: 450px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.about-page .meet-ceo-section {
+  background-color: white !important;
+  box-shadow: none !important;
+  margin: 0px !important;
+}
+
+
+.stat-box {
+    border: 1px solid #e0e0e0;
+  /* border-top: 4px solid var(--maincolor); */
+  border-radius: 12px;
+  background-color: #fff;
+  padding: 25px 20px;
+  transition: all 0.3s ease;
+  position: relative;
+  cursor: default;
+}
+
+.stat-box:hover {
+  transform: scale(1.03);
+  border-color: var(--maincolor); 
+}
+
+.stat-icon {
+  font-size: 2.3rem;
+  color: var(--maincolor);
+  margin-bottom: 8px;
+}
+
+.stat-title {
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+@media(max-width:576px){
+    .stat-box h2,
+  .stat-box p {
+    margin-bottom: 5px !important;
+  }
+
+  .stat-box {
+    padding: 15px 20px;
+  }
+}

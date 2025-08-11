@@ -1,0 +1,118 @@
+.formvaluation-hero-section {
+  background-image: url(/images/valuation.jpg);
+}
+
+.form-home-worth {
+  margin: 70px 0px;
+}
+
+.valuation-form-wrapper {
+  margin: 70px auto;
+}
+
+.left-form-panel {
+  gap: 30px;
+}
+
+.left-panel {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 0px;
+}
+
+.policy-box {
+  background-color: #2a513c2b;
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 0.9rem;
+}
+
+.form-panel-div {
+  width: 60%;
+}
+
+.form-panel{
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+
+
+.form-label {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+input,
+select,
+textarea {
+  border-radius: 10px !important;
+  padding: 10px 12px !important;
+  font-size: 14px !important;
+}
+
+.form-control:focus,
+.form-select:focus {
+  color: var(--bs-body-color);
+  background-color: var(--bs-body-bg);
+  border-color: #2a513c2b;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem #2a513c2b;
+}
+
+.option:hover {
+  background-color: #2a513c2b !important;
+}
+
+.policy-box a:hover {
+  text-decoration: underline !important;
+}
+
+.form-bottom-para{
+  margin-top: 20px;
+  margin-bottom: 0px !important;
+  font-size: 13px !important;
+  color: var(--maincolor) !important;
+}
+
+@media (max-width: 992px) {
+  .left-form-panel {
+    flex-direction: column;
+  }
+
+  .left-panel,
+  .form-panel-div {
+    width: 100%;
+  }
+
+  .policy-box {
+    margin-top: 10px !important;
+  }
+
+  .left-form-panel {
+    gap: 0px;
+  }
+}
+
+@media (max-width: 576px) {
+  .valuation-form-wrapper {
+    margin: 40px auto;
+  }
+
+  .form-panel {
+    padding: 12px !important;
+  }
+}
+
+.recaptcha-wrapper {
+  width: 100%;
+  height: 80px;
+  overflow: hidden;
+}
+
+.g-recaptcha {
+  max-width: 100%;
+}
+

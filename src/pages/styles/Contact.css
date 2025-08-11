@@ -1,0 +1,135 @@
+.contact-page .contactpage-form {
+  margin: 70px 0px;
+}
+
+.contact-page .contactpage-form .container {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.contact-page h4 {
+  margin-bottom: 0px !important;
+}
+
+.contact-page .contactpage-form .container .contact-form-div,
+.contact-page .contactpage-form .container .contact-image-div {
+  width: 100%;
+}
+
+.contact-image-div img {
+  width: 100%;
+  max-width: 100%;
+  height: 600px;
+  border-radius: 0px;
+  object-fit: cover;
+}
+
+.contact-page .contact-form-card {
+  padding: 50px;
+  box-shadow: none;
+}
+
+.contact-page button {
+  width: 100%;
+}
+
+.contact-page .lets-connect .lets-connect-div {
+  width: 100%;
+}
+
+.contact-page .lets-connect .lets-connect-row {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.contact-page .lets-connect .lets-connect-row .img-div {
+  background: #2a513c2b;
+  display: inline-block;
+  padding: 12px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.contact-page .lets-connect .lets-connect-row .img-div img {
+  height: 30px;
+  width: 30px;
+  object-fit: contain;
+}
+
+.contact-page .lets-connect .lets-connect-row h4 {
+  font-size: 18px !important;
+  color: var(--black) !important;
+  font-weight: 600 !important;
+  line-height: 20px;
+  margin-bottom: 10px !important;
+}
+
+.contact-page .lets-connect .lets-connect-row p {
+  margin-bottom: 15px !important;
+}
+
+.contact-page .lets-connect .lets-connect-row a {
+  margin-bottom: 14px !important;
+  font-weight: 600 !important;
+  font-size: 15px !important;
+  color: var(--maincolor) !important;
+}
+
+.contact-page .map-section {
+  margin: 70px 0px;
+}
+
+.contact-page .map-section .map-container {
+  margin-top: 40px;
+}
+
+.contact-hero-section {
+  background-image: url(/images/contactttt.jpg);
+}
+
+@media (max-width: 992px) {
+  .contact-page .contactpage-form .container {
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+
+  .contact-image-div img {
+    height: 400px;
+  }
+
+  .contact-page .lets-connect .lets-connect-row {
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 40px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-page .contactpage-form {
+    margin: 40px 0px;
+  }
+
+  .contact-page .map-section {
+    margin: 40px 0px;
+  }
+}
+
+@media (max-width: 576px) {
+  .contact-page .contact-form-card {
+    padding: 0px 0px 20px;
+  }
+
+  .contact-image-div img {
+    height: 290px;
+  }
+
+  iframe {
+    height: 320px;
+  }
+
+}

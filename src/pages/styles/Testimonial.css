@@ -1,0 +1,45 @@
+.testimonial-hero-section {
+  background-image: url(/images/test-backk.webp);
+}
+
+.testimonial-card {
+  background-color: var(--lightbackground);
+  border: 1px solid #e0e0e0;
+  border-radius: 16px !important;
+  transition: all 0.3s ease;
+}
+.testimonial-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+  border-color: var(--maincolor);
+  background-color: white;
+}
+.quote-mark {
+  color: var(--maincolor);
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.testimonial-page .testimonial-gridimage {
+  width: 80px !important;
+  height: 80px !important;
+  object-fit: cover;
+}
+
+.section-testimonial-page {
+  margin: 70px 0px;
+}
+
+.section-testimonial-page .client-name {
+  color: var(--maincolor) !important;
+}
+
+.section-testimonial-page .client-role {
+  color: var(--black) !important;
+}
+
+@media (max-width: 576px) {
+  .section-testimonial-page {
+    margin: 40px 0px;
+  }
+}
