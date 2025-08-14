@@ -9,7 +9,7 @@ This is a **frontend-only version** — backend functionality for forms is curre
 ---
 
 ## 📌 Features
-- Fully responsive **React** UI
+- Fully responsive **React** UI 
 - **About Page** with company introduction
 - **Services Section** showcasing offerings
 - **Testimonials** page with mock client feedback
